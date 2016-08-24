@@ -1,0 +1,140 @@
+$font-stack: 'CGF Locust Resistance'
+$font-second: 'Bank Gothic'
+$primary-color: rgb(175, 47, 158)
+
+body
+  margin: 0
+  padding: 0
+  font: 100% $font-stack
+  text-transform: uppercase
+  background: url(http://www.walldevil.com/wallpapers/a38/wallpapers-background-high-backgrounds-resolution-blue-gaming-black-multi-color-shining-waves.jpg)
+  background-size: cover
+  flex-wrap: wrap
+
+.App
+  color: white
+  font-size: 20px
+
+.Header
+  margin: 0
+  width: 100vw
+  margin-bottom: 100px
+  border-bottom: 5px solid rgb(71, 196, 166)
+  background-color: $primary-color
+  opacity: .75
+  text-align: center
+  font-size: 75px
+  text-shadow: 5px 5px 10px blue
+
+.Sidebar
+  display: flex
+  width: 225px
+  text-align: center
+  margin-left: 200px
+  align-items: flex-start
+  flex-direction: column
+  .Avatar img
+    border-radius: 10px
+    max-height: 275px
+    max-width: 275px
+    border: 3px solid rgb(222, 32, 252)
+    box-shadow: 5px 5px 10px white
+  .Name
+    margin-top: 10px
+    font-family: $font-stack
+    text-transform: uppercase
+    font-size: 30px
+    color: white
+    text-shadow: 5px 5px 10px purple
+  .Bio
+    font-family: $font-second
+    font-size: 15px
+    color: white
+    border-bottom: 2px solid rgb(222, 32, 252)
+    padding-bottom: 20px
+    padding-left: 10px
+    margin-top: 10px
+    width: 225px
+  .Info
+    margin-top: 30px
+    margin-left: -35px
+    font-family: $font-second
+    font-size: 12px
+    font-weight: lighter
+    color: white
+    width: 275px
+    line-height: 30px
+    border: 2px solid white
+    background-color: rgb(128, 68, 161)
+    opacity: .75
+    box-shadow: 5px 5px 10px white
+  p
+    align-self: center
+  .Followers
+    font-size: 15px
+    text-transform: uppercase
+    text-align: center
+    border: 2px solid black
+    background-color: white
+    opacity: .75
+    width: 200px
+    border: 3px solid purple
+    text-align: center
+    margin-left: -20px
+    padding-right: 30px
+    box-shadow: 5px 5px 10px purple
+    .Following
+      font-size: 15px
+      text-transform: uppercase
+      text-align: center
+      border: 2px solid black
+      background-color: white
+      opacity: .75
+      width: 200px
+      border: 3px solid purple
+      text-align: center
+      margin-left: -20px
+      padding-right: 30px
+      box-shadow: 5px 5px 10px purple
+    .Organizations
+      font-size: 15px
+      text-transform: uppercase
+      text-align: center
+      border: 2px solid black
+      background-color: white
+      opacity: .75
+      width: 200px
+      border: 3px solid purple
+      text-align: center
+      margin-left: -20px
+      padding-right: 30px
+      box-shadow: 5px 5px 10px purple
+
+.Repositories
+  height: 1000px
+  display: flex
+  box-shadow: 5px 5px 10px white
+  text-align: center
+  font-family: $font-stack
+  padding-right: 75px
+  flex-direction: column
+  margin-left: 600px
+  line-height: 45px
+  background-color: white
+  opacity: .75
+  width: 500px
+  font-size: 18px
+  border: 3px solid purple
+  border-radius: 20px
+  margin-top: -875px
+
+.footer
+  margin-top: 100px
+  padding: 0
+  height: 50px
+  text-align: center
+  padding-top: 20px
+  font-size: 15px
+  background-color: $primary-color
+  border-top: 2px solid rgb(71, 196, 166)
+  width: 100vw
